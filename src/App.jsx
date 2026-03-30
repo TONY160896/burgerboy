@@ -81,7 +81,7 @@ const Hero = () => {
         for (let i = 1; i <= frameCount; i++) {
             const img = new Image();
             const imgNumber = i.toString().padStart(3, '0');
-            img.src = `/heroimages/ezgif-frame-${imgNumber}.png`;
+            img.src = `heroimages/ezgif-frame-${imgNumber}.png`;
             
             // Draw first frame immediately when it loads
             if (i === 1) {
@@ -223,7 +223,7 @@ const About = () => {
                     <div className="relative h-[500px] w-full flex items-center justify-center bg-gray-50 rounded-[2.5rem] overflow-hidden">
                         <Reveal width="100%" delay={0.4}>
                             <img 
-                                src="/assets/meat_patty_grilling.png" 
+                                src="assets/meat_patty_grilling.png" 
                                 alt="Meat Patty Grilling" 
                                 className="max-h-[450px] w-auto object-contain mix-blend-multiply brightness-[1.02] contrast-[1.05]"
                             />
